@@ -1,0 +1,112 @@
+.head1{
+  background-color: rgba(32, 41, 110,0.5);
+  width: auto;
+height: auto;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr    ;
+border-left:2px solid #cc0033;
+
+}
+
+.head1 a{
+  text-decoration: none;
+  display: flex;
+font-family: 'Righteous', cursive;
+font-size: 30px;
+  color: black;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.head1 a:hover{
+  text-shadow: 4px  4px 4px #764087;
+    animation: move 0.25s ease-in-out;
+cursor: pointer;
+}
+
+.head1:hover{
+  box-shadow: 6px 6px black;
+    animation: move 1s ease-in-out;
+    cursor: pointer;
+}
+.dropout {
+  display: none;
+}
+.con3:hover .dropout{
+  display:block;
+  box-shadow: 4px 4px white;
+position: absolute;
+}
+.con3:hover .but5{
+  display:block;
+  display: block;
+  background-color: white;
+  border: 6px solid white;
+  font-family: 'Righteous', cursive;
+  font-size: 20px;
+  width: auto;
+  height: auto;
+    box-shadow: 4px 4px black;
+      animation: move 1s ease-in-out;
+      position: absolute;
+
+
+}
+.con3 p{
+  font-family: 'Righteous', cursive;
+  font-size: 20px;
+}
+.con3 p{
+border: 3px solid #5c2a27;
+border-radius: 7px;
+color: #f0e2e1;
+background-color: black;
+}
+.ord1{
+  display: flex;
+  justify-content:center;
+  font-family: 'Righteous', cursive;
+  font-size: 40px;
+  background-color: #fc9;
+  border-left: 2px solid red;
+  background-image: url("45.jpg");
+  color: white;
+  text-shadow: 3px 3px 3px black;
+}
+body{
+  padding: 0;
+  margin: 0;
+  background-color:#827776;
+}
+*{
+  box-sizing: border-box;
+}
+.info5{
+  display: flex;
+  justify-content:center;
+  font-family: 'Righteous', cursive;
+  font-size: 30px;
+  background-image: url("92.jpg");
+  background-size: 100%;
+text-shadow: 3px 3px 3px black;
+color: white;
+}
+.info4{
+  display: flex;
+  justify-content:center;
+  font-family: 'Righteous', cursive;
+  font-size: 30px;
+  padding-top: 4%;
+  background-image: url("4.jpg");
+  text-shadow: 3px 3px 3px black;
+color: white;
+}
+.info4:hover{
+  box-shadow: 4px 4px black;
+}
+.info5:hover{
+
+  box-shadow: 4px 4px black;
+}
+.ord1:hover{
+    box-shadow: 4px 4px black;
+}

@@ -1,0 +1,120 @@
+body{
+  overflow: scroll;
+background-image: url("78.jpg");
+margin: 0;
+padding: 0;
+}
+.head1{
+  background-color: rgba(32, 41, 110,0.5);
+  width: auto;
+height: auto;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr    ;
+border-left:2px solid #cc0033;
+
+}
+
+.head1 a{
+  text-decoration: none;
+  display: flex;
+font-family: 'Righteous', cursive;
+font-size: 30px;
+  color: white;
+  flex-direction: row;
+  justify-content: space-around;
+    text-shadow: 4px  4px 4px black;
+}
+.head1 a:hover{
+  text-shadow: 4px  4px 4px #764087;
+    animation: move 0.25s ease-in-out;
+cursor: pointer;
+}
+
+.head1:hover{
+  box-shadow: 6px 6px black;
+    animation: move 1s ease-in-out;
+    cursor: pointer;
+}
+.dropout {
+  display: none;
+}
+.con3:hover .dropout{
+  display:block;
+  box-shadow: 4px 4px white;
+position: absolute;
+
+}
+.con3:hover .but5{
+  display:block;
+  display: block;
+  background-color: white;
+  border: 6px solid white;
+  font-family: 'Righteous', cursive;
+  font-size: 20px;
+  width: auto;
+  height: auto;
+    box-shadow: 4px 4px black;
+      animation: move 1s ease-in-out;
+      position: absolute;
+
+
+}
+.con3 p{
+  font-family: 'Righteous', cursive;
+  font-size: 20px;
+}
+.con3 p{
+border: 3px solid #5c2a27;
+border-radius: 7px;
+color: #f0e2e1;
+background-color: black;
+}
+.p1{
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-shadow: 3px 3px 3px black;
+  font-size: 40px;
+    font-family: 'Righteous', cursive;
+    background-color: black;
+
+
+}
+.p1:hover{
+  box-shadow: 3px 3px grey;
+
+}
+.p4 , .p3 , .p2,.p5,.p6,.p7,.p8{
+  display: flex;
+  justify-content: flex-start;
+  font-family: 'Righteous', cursive;
+  background-color: black;
+    font-size: 30px;
+color: #fcd260;
+  text-shadow: 4px 4px 3px black;
+  margin-top: 2.5%;
+  border-left: 3px solid red;
+
+}
+.wrapper:hover{
+
+  border-right: 3px solid red;
+  box-shadow: 3px 3px white;
+
+}
+.wrapper2:hover{
+  border-right: 3px solid purple;
+  box-shadow: 3px 3px white;
+}
+.ul1,.ul2,.ul3,.ul4,.ul5{
+  display: flex;
+  justify-content: flex-start;
+  font-family: 'Righteous', cursive;
+  background-color: black;
+    font-size: 30px;
+color: white;
+  text-shadow: 4px 4px 3px black;
+  margin-top: 2.5%;
+  flex-direction: column;
+    border-left: 3px solid purple;
+}
