@@ -39,24 +39,30 @@
     </div>
     <div class="">
       <label for="password">Пароль</label>
-      <input type="password" name="password" value="">
+      <input type="password" name="password" value="" id="password">
     </div>
     <div class="">
       <label for="email">Имя</label>
-      <input type="text" name="text" value="" id="lol">
+      <input type="text" name="text" value="" id="email">
     </div>
     <div class="">
-      <input type="submit" name=""  onclick="a(this)" style="width:100px; height:25px;   font-family: 'Righteous', cursive;" value="Подтвердить">
+      <input type="submit" name=""  onclick="b(this)" style="width:100px; height:25px;   font-family: 'Righteous', cursive;" value="Подтвердить">
     </div>
     </div>
 
     <script type="text/javascript">
 
-function a(){
+    function b(){
+       var elem = document.getElementById("email").value;
+          var elem1 = document.getElementById("password").value;
+    if (elem==""||elem1=="") {
+    alert("Заполните все поля");
+    }
+    else {
+      alert("Ваш аккаунт будет добавлен в нашу базу данных");
+    }
 
-  alert("Ваш аккаунт будет добавлен в нашу базу данных");
-}
-
+    }
     </script>
 
   </body>

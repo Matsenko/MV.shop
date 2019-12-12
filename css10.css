@@ -348,6 +348,10 @@ text-align: center;
 .ship1{
     margin-left: 25%;
 }
+.head1{
+  font-size: 15px;
+}
+
 }
 .newgoods {
   display: flex;

@@ -33,11 +33,23 @@
 
     </header>
 <div class="inp">
-  <div ><label for="email">Email</label><input type="email" name="email" value=""></div>
-  <div >       <label for="password">Password</label><input type="password" name="password" value=""></div>
+  <div ><label for="email">Email</label><input type="email" name="email" value="" id="email"></div>
+  <div >       <label for="password">Password</label><input type="password" name="password" value="" id="password"></div>
 
-  <input type="submit" name="" value="Submit" style="width:100px;height:25px;   font-family: 'Righteous', cursive;">
+  <input type="submit" name="" onclick="b(this)" value="Submit" style="width:100px;height:25px;   font-family: 'Righteous', cursive;">
 
 </div>
+<script type="text/javascript">
+
+function b(){
+   var elem = document.getElementById("email").value;
+      var elem1 = document.getElementById("password").value;
+if (elem==""||elem1=="") {
+alert("Fill all the fields");
+}
+
+
+}
+</script>
   </body>
 </html>
